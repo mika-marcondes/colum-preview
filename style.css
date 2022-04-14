@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.title {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.grid-item-1 {
+    padding: 10%;
+    color: hsl(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.grid-item-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.grid-item-3 {
+    background-color: hsl(179, 100%, 13%);
+}
