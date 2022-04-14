@@ -4,14 +4,14 @@ body {
 
 .flex {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
 }
 
 .title {
@@ -19,16 +19,19 @@ body {
     font-family: 'Big Shoulders Display', cursive;
 }
 
-.grid-item-1 {
+.style-grid {
     padding: 10%;
     color: hsl(0, 0%, 100%, 0.75);
+}
+
+.item-1 {
     background-color: hsl(31, 77%, 52%);
 }
 
-.grid-item-2 {
+.item-2 {
     background-color: hsl(184, 100%, 22%);
 }
 
-.grid-item-3 {
+.item-3 {
     background-color: hsl(179, 100%, 13%);
 }
