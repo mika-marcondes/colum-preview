@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io/solutions/responsive-column](https://www.frontendmentor.io/solutions/responsive-column-using-flexbox-and-css-grids-Skj8qC_E9)
 - Live Site URL: [mika-marcondes.github.io/colum-preview](https://mika-marcondes.github.io/colum-preview/)
 
 
